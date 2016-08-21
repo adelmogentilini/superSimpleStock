@@ -17,9 +17,10 @@ For formula and other specification see doc\Super Simple Stocks.docx
 
 <h1>Solution</h1>
 
-We provide a set of objects that model the required enviroments.
-A service interface for the required operations that enable interacting with market add stock, trade its and calculate the required formula.
+I have provided a set of objects that model the required enviroments using a service interface for the required operations:
+ . interacting with market for trade  
+ . calculate the required formula
 
-All example is based on an in memory persistent structure that is modelled by the class PersistenceMarket.
+All examples are based on an in memory persistent structure that is modelled by the class PersistenceMarket.
 
-For example we write a test class based on JUnit3 for the StockFactory object and a simple simulation test for all the operation required.
+As an example I wrote a test class based on JUnit3 for the StockFactory object, and a simple simulation test for all the operation required.
